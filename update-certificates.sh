@@ -32,7 +32,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo -e "$(date)\n### Downloading S3 SSL Certificates\n" 
-aws s3 cp s3://${org}-ssl-certificates/${environment}/ /etc/ --recursive
+aws s3 cp s3://${s3_directory}/${environment}/ /etc/ --recursive
 chmod +x /etc/dehydrated/dehydrated
 chmod +x /etc/dehydrated/hook.sh
 
