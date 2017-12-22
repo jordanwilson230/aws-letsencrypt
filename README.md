@@ -27,7 +27,7 @@ Inside the s3://<org>-ssl-certificates/<environment>/dehydrated directory, uploa
   * dehydrated
   * hook.sh
 
-### Run ###
+# Run
 On any linux box (which has permissions to access s3 and Route53) run the update-certificates.sh file.
 
 Follow the prompts to specify the environment you wish to update/renew.
