@@ -3,7 +3,7 @@
 
 ###
 # Note, this script was initially created when we had spanned multiple regions.
-# After moving to a single region, edits were made and there are some mentions of "region".
+# After moving to a single region, edits were made and there are still some mentions of "region".
 # Feel free to modify the script to your own environment layout.
 ###
 
