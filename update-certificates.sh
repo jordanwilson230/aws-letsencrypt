@@ -4,7 +4,7 @@
 ###
 # Note, this script was initially created when we had spanned multiple regions.
 # After moving to a single region, edits were made and there are still some mentions of "region".
-# Feel free to modify the script to your own environment layout.
+# Feel free to modify the script to have it loop across your own environment(s).
 ###
 
 # Set your s3 path here.
