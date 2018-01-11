@@ -1,4 +1,6 @@
-Note: This is a rushed repo :D ...I'm simply uploading this "as-is" for safekeeping and for others to use/build upon.
+Note: 
+- Also, this is a rushed repo :D ...I'm simply uploading this "as-is" for safekeeping and for others to use/build upon.
+- This uses the DNS challenge method. 
 
 ### SETUP ###
 # Requirements
