@@ -15,7 +15,7 @@ Note: This is a rushed repo :D ...I'm simply uploading this "as-is" for safekeep
   * jq (binary included in repo...place it in your PATH and give executable permissions.)
 
 
-# Setup
+# Configuration
 Feel free to modify the code to your own setup.  It is currently setup for my own personal use, so you will need to modify the script to point to your own s3 bucket.  The following is an example of what my directory structure looks like.
 
 s3://<org>-ssl-certificates/<environment>/dehydrated/certs
