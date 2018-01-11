@@ -34,7 +34,10 @@ On any linux box (which has permissions to access s3 and Route53) run the update
 
 Follow the prompts to specify the environment you wish to update/renew.
 
-Any certs that are not ready for renewal will be skipped, otherwise updated (or if it sees a blank folder, it creates a new certificate request). The challenge response is handled automatically. Once it has finished running, it will upload everything back to the s3 bucket.
+Any certs that are not ready for renewal will be skipped, otherwise updated (or if it sees a blank folder, it creates a new certificate request). The challenge response is handled automatically. 
+
+Once it has finished running, it will upload everything back to the s3 bucket.
 
 For ELB's which are assigned the certificate, they will be automatically discovered and reloaded with the now-updated certificate.
-  * To prevent downtime, the new cert is first uploaded as yourCertName-tmp. The ELB is immediately assigned this temporary certificate, after which the old certificate is deleted and replaced with the new certificate. The LB then switches back and the temporary certificate deleted.
+
+* To prevent downtime, the new cert is first uploaded as yourCertName-tmp. The ELB is immediately assigned this temporary certificate, after which the old certificate is deleted and replaced with the new certificate. The LB then switches back and the temporary certificate deleted.
