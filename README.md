@@ -1,5 +1,5 @@
 Note:
-- During execution, any new or updated certificates are immediately uploaded to S3.
+- During execution, any new or updated certificates are immediately uploaded to S3 (see below for setup).
 - To ensure ideompodent executions, a md5 check is performed against the ELB assigned to the certificste (retrieved via API) and the certificates residing in the s3 bucket. ELBs with a matching value will then not be touched.
 - This uses the DNS validation method.
 - Lastly, this is a somewhat rushed repo :D ...I'm simply uploading this "as-is" for safekeeping and for others to use/build upon.
